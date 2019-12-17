@@ -18,3 +18,5 @@ def reduce(array, starting_value=nil)
 end
 while i < array.length do 
   sum = yield(sum, array[i])
+  i += 1 
+  
