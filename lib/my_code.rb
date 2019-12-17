@@ -8,3 +8,6 @@ def map(array)
   new_array
 end
 
+def reduce(array, starting_value=0)
+  
+end
