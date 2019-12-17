@@ -1,7 +1,7 @@
 def map(array)
-  new = []
+  new_array = [] 
   i = 0 
   while i < array.length do 
-    new.push()
+    new_array.push(yield(array[i]))
   
 end
